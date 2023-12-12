@@ -1,0 +1,110 @@
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(48, 7, 230);
+    text-align: center;
+}
+
+
+
+/* Ancho máximo para el contenedor de los párrafos */
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+/* Estilos para los títulos */
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; 
+    text-align: center;
+}
+
+
+/* Estilos para los enlaces dentro del footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* Estilos para el fondo de la página */
+body {
+    background: linear-gradient(to bottom, #FFD700, #e776af); 
+}
+/* Estilos para el footer */
+.footer-section {
+    background-color: #e9eded; 
+    color: #000; 
+    padding: 20px 0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+.footer-section .sn { 
+    width: 250px;
+}
+
+/* Estilos para los títulos dentro del footer */
+.footer-section h4 {
+    color: #ff5e00;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.footer-section h5 {
+    color: #ff5e00;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.footer-section h6 {
+    color: #ff5e00;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para los párrafos dentro del footer */
+.footer-section .sn {
+    color: hsl(30, 100%, 2%);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.footer-section .rs {
+    color: #ff5e0000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+}
+
+.footer-section .ei {
+    color: #ff5e0000;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+    
+/*ESTILO LOGO*/
+.logo {
+    max-width: 80px; 
+    display: block; 
+    margin: 0 auto; 
+    
+}
+/*otros estilos*/
+
+.welcome{ border: 2px solid #ffffff; 
+    padding: 18px;
+    border-radius: 5px; /* Esquinas redondeadas del cuadro */
+    margin-top: 10px; 
+}
